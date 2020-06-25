@@ -11,18 +11,18 @@ body {
   background: #1abc9c;
   color: white;
 }
-.form_section {  
+.col-form_section {  
   display: flex;
   flex-wrap: wrap;
 }
-.side {
+.col-side {
   flex: 20%;
   background-color: white;
   padding: 50px;
   position: relative;
-    left: 30%;
+  left: 30%;
 }
-.msg {
+.col-msg {
   flex: 50%;
   background-color: white;
   padding: 50px;
@@ -30,7 +30,7 @@ body {
   left: 13%;
 }
 
-.sub {
+.col-sub {
   padding: 20px;
   text-align: center;
   background: white;
