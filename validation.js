@@ -6,7 +6,10 @@ $().ready(function() {
             }
         },
         messages: {
-            Email: "Please Enter a Valid Email id"
+            Email: "Please Enter a Valid Email id",
+            Name: "Please Enter your Name",
+            subject: "Please Enter the subject of your message",
+            message: "Please Enter your message"
         },
         submitHandler: function(form) {
             form.submit();
