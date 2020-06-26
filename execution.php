@@ -4,7 +4,7 @@
 	$email = $_POST["Email"];
 	$subject = $_POST["subject"];
 	$content = $_POST["message"];
-  $realContent = 'from:'.$name.' <'.$email.'>'.nl2br($content);
+  $realContent = 'from:'.$name.' <'.$email.'>'."\r\n\r\n\r\n".$content;
 
 // Create the Transport
 $transport = (new Swift_SmtpTransport('smtp.gmail.com', 587, 'tls'))
