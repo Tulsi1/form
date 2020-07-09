@@ -95,3 +95,20 @@ body{
 .col-2{
   color: #66fcf1;
 }
+.fb{
+  position: absolute;
+  right: 50%;
+}
+img:hover{
+  opacity: 20%;
+}
+.linkedin{
+  position: absolute;
+  right: 47%;
+  top: 59%;
+}
+.loc{
+  position: absolute;
+  right: 45%;
+}
+
